@@ -12,6 +12,6 @@ class Fib {
     public static void main(String[] args) {
         Fib solution = new Fib();
         int n = 5; // Example input
-        System.out.println("Fibonacci number at position " + n + " is " + solution.fibonacci(n));
+        System.out.println("Fibonacci number at position " + n + " is " + solution.fib(n));
     }
 }
