@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Normal;
 
 class Fib {
     public int fib(int n) {

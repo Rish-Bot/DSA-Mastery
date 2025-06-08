@@ -1,5 +1,4 @@
-package Recursion;
-import java.util.*;
+package Recursion.Normal;
 
 
 class ReverseArray {

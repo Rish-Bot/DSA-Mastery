@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Normal;
 
 class SumDigits {
     // Method to compute the digital root of a number

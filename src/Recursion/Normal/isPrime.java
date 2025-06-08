@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Normal;
 
 class PrimeNo {
     // Main method for testing the checkPrime function

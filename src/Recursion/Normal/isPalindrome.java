@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Normal;
 
 class isPalindrome {
     // Method to check if a string is a palindrome

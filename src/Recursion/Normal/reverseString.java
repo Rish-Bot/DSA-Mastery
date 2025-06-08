@@ -1,5 +1,6 @@
-package Recursion;
-import java.util.*;
+package Recursion.Normal;
+
+import java.util.Vector;
 
 class ReverseString {
     /* Recursive function to reverse the
