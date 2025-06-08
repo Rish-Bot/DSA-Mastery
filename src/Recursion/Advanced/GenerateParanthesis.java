@@ -17,6 +17,7 @@ class GenerateParanthesis {
         if ((open + close == 2 * n) && open == close) {
             result.add(current);
             return;
+
         }
 
         if (open > n)
