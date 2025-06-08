@@ -44,7 +44,9 @@ class GenerateParanthesis {
 }
 
 /*
-Time Complexity: O(4^n / sqrt(n)), where n is the number of pairs of parentheses. This complexity arises because each step involves branching into two possibilities, resulting in an exponential number of possibilities, reduced by the Catalan number formula for valid combinations.
+Time Complexity: O(4^n / sqrt(n)),
+
+where n is the number of pairs of parentheses. This complexity arises because each step involves branching into two possibilities, resulting in an exponential number of possibilities, reduced by the Catalan number formula for valid combinations.
 Space Complexity: O(4^n / sqrt(n)), primarily due to the recursion stack and the storage required for the result list of valid combinations. The space is proportional to the number of valid combinations generated.
 
  */
