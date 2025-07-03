@@ -16,7 +16,6 @@ class Pow {
         double ans = 1;
 
         for (long i = 0; i < temp; i++) {
-            // Multiply ans by x for n times
             ans *= x;
         }
         return ans;
