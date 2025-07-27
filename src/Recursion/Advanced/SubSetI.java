@@ -2,6 +2,22 @@ package Recursion.Advanced;
 
 import java.util.ArrayList;
 import java.util.List;
+/*
+Given an array nums of n integers.Return sum of all subsets of the array nums.
+Output can be printed in any order.
+
+ex:
+Input : nums = [2, 3]
+Output : [0, 2, 3, 5]
+
+Explanation :
+When no elements is taken then Sum = 0.
+When only 2 is taken then Sum = 2.
+When only 3 is taken then Sum = 3.
+When element 2 and 3 are taken then sum = 2+3 = 5.
+
+
+ */
 
 class SubSetI {
     public static void main(String[] args) {
@@ -32,3 +48,4 @@ class SubSetI {
         subset(index + 1, nums, sum + nums[index], ans);
     }
 }
+
